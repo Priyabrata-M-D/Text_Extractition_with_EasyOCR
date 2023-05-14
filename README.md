@@ -1,0 +1,1 @@
+# Text_Extractition_with_EasyOCR
