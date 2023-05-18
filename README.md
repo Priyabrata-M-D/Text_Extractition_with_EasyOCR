@@ -1,4 +1,9 @@
 # Business Card Information Extraction with EasyOCR
+
+## App Link: https://priyabrata-m-d-text-extractition-with-easyocr-final-yhzkvw.streamlit.app/
+
+## Video Link: https://www.linkedin.com/posts/activity-7065029161114812416-79Uy?utm_source=share&utm_medium=member_desktop
+
 This is a Streamlit application developed using Python that allows users to upload an image of a business card, extract relevant information from it using easyOCR, and manage the extracted information in a database. The application provides a graphical user interface (GUI) for easy interaction and data management.
 
 ## Features
