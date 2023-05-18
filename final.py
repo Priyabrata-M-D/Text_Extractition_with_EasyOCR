@@ -1,5 +1,4 @@
 import io
-# import mysql.connector
 import sqlite3
 import re
 import easyocr as ocr
@@ -7,22 +6,6 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 st. set_page_config(layout="wide")
-
-
-# Connect to MYSQL
-# conn = mysql.connector.connect(host='localhost', user='root', password='mysql321')
-# cursor = conn.cursor()
-# database_name = 'bizcarddb'
-# cursor.execute(f"CREATE DATABASE IF NOT EXISTS {database_name}")
-# print(f"Database '{database_name}' created successfully.")
-# cursor.execute(f"USE {database_name}")
-# table_name = 'bizcards'
-# create_table_query = """
-# CREATE TABLE IF NOT EXISTS {table_name} (id INT AUTO_INCREMENT PRIMARY KEY,website_url VARCHAR(255),
-#    email VARCHAR(255),pin_code VARCHAR(10),phone_numbers VARCHAR(255),
-#    address VARCHAR(255),card_holder_details VARCHAR(255),businesscard_photo BLOB)"""
-# cursor.execute(create_table_query.format(table_name=table_name))
-# print(f"Table '{table_name}' created successfully.")
 
 conn = sqlite3.connect('business_cards.db')
 cursor = conn.cursor()
